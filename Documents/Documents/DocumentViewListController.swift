@@ -2,7 +2,7 @@
 //  DocumentViewListControllerViewController.swift
 //  Documents
 //
-//  Created by Cody Whitaker on 6/22/18.
+//  Created by Cody Whitaker on 6/15/18.
 //  Copyright © 2018 Cody Whitaker. All rights reserved.
 //
 
@@ -10,6 +10,7 @@ import UIKit
 
 class DocumentViewListControllerViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
+
 
     var documents = [Document]()
     let dateFormatter = DateFormatter()
