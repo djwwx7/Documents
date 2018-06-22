@@ -16,7 +16,7 @@
 		EFA6EA1A20D451AB00F00059 /* DocumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6EA1920D451AB00F00059 /* DocumentsUITests.swift */; };
 		EFDF635E20DD500B00F0CF11 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF635D20DD500B00F0CF11 /* DocumentViewController.swift */; };
 		EFDF636020DD508900F0CF11 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF635F20DD508900F0CF11 /* DocumentTableViewCell.swift */; };
-		EFDF636220DD50DC00F0CF11 /* DocumentViewListControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF636120DD50DC00F0CF11 /* DocumentViewListControllerViewController.swift */; };
+		EFDF636220DD50DC00F0CF11 /* DocumentViewListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF636120DD50DC00F0CF11 /* DocumentViewListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		EFA6EA1B20D451AB00F00059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDF635D20DD500B00F0CF11 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		EFDF635F20DD508900F0CF11 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
-		EFDF636120DD50DC00F0CF11 /* DocumentViewListControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewListControllerViewController.swift; sourceTree = "<group>"; };
+		EFDF636120DD50DC00F0CF11 /* DocumentViewListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			children = (
 				EFA6E9F620D451A900F00059 /* AppDelegate.swift */,
 				EFA6E9FA20D451A900F00059 /* Main.storyboard */,
-				EFDF636120DD50DC00F0CF11 /* DocumentViewListControllerViewController.swift */,
+				EFDF636120DD50DC00F0CF11 /* DocumentViewListController.swift */,
 				EFDF635D20DD500B00F0CF11 /* DocumentViewController.swift */,
 				EFDF635F20DD508900F0CF11 /* DocumentTableViewCell.swift */,
 				EFA6EA0020D451AB00F00059 /* Assets.xcassets */,
@@ -269,7 +269,7 @@
 				EFDF635E20DD500B00F0CF11 /* DocumentViewController.swift in Sources */,
 				EFA6E9FF20D451A900F00059 /* Documents.xcdatamodeld in Sources */,
 				EFA6E9F720D451A900F00059 /* AppDelegate.swift in Sources */,
-				EFDF636220DD50DC00F0CF11 /* DocumentViewListControllerViewController.swift in Sources */,
+				EFDF636220DD50DC00F0CF11 /* DocumentViewListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
